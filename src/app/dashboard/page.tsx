@@ -166,7 +166,7 @@ export default function Dashboard() {
                   <button onClick={() => setSelectedReview(null)} className="text-gray-500 hover:text-black">Close</button>
                 </div>
                 <div className="p-6 overflow-y-auto prose max-w-none">
-                  <pre className="whitespace-pre-wrap font-sans text-sm">{selectedReview}</pre>
+                  <pre className="whitespace-pre-wrap font-mono text-sm text-gray-900 leading-relaxed">{selectedReview}</pre>
                 </div>
               </div>
             </div>
